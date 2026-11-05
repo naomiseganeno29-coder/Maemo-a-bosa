@@ -4,10 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css" />
+    
+
     <title>Maemo a bosa</title>
 
 </head>
 <body>
+    <div class="weather-app">
     <header>
      <form>
         <input type="search" placeholder="Enter a city..." required/>
@@ -18,9 +21,9 @@
         <div class="info">
         <h1>Rustenburg</h1>
         <p>
-            Thursday 10:29,Partly cloudy
+            Thursday <strong>10:29</strong>,Partly cloudy
             <br/>
-            Humidity:29%,Wind:5.35km/h
+            Humidity: <strong>29%</strong>,Wind:<strong>5.35km/h</strong>
         </p>
          </div>
          <div class="degree">
@@ -30,6 +33,7 @@
             
          </div>
     </main>
+     <hr/>
     <footer>
         <p>
           Coded by
@@ -39,6 +43,7 @@
           
         </p>
     </footer>
+    </div>
     <script srcs="script.js"></script>
 </body>
 </html>
