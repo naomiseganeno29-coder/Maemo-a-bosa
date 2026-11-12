@@ -47,6 +47,12 @@ main .degree{
   font-size: 40px;
 
 }
+main .degree-icon{
+  font-size: 25px;
+  position: relative;
+  top: -13px;
+  left: -6px;;
+}
 footer p{
   color: #292d32;
 }

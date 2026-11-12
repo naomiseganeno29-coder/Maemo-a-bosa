@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css" />
-    
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.20.0/dist/axios.min.js"></script>
 
     <title>Maemo a bosa</title>
 
@@ -12,16 +12,16 @@
 <body>
     <div class="weather-app">
     <header>
-     <form>
-        <input type="search" placeholder="Enter a city..." required/>
+     <form id="form">
+        <input type="search" placeholder="Enter a city..." required id="search-city"/>
         <input type="submit" value="Search"/>
      </form>
     </header>
     <main>
         <div class="info">
         <h1>Rustenburg</h1>
-        <p>
-            Thursday <strong>10:29</strong>,Partly cloudy
+        <p >
+            <span class="date">Thursday <strong>10:29</strong></span>,Partly cloudy
             <br/>
             Humidity: <strong>29%</strong>,Wind:<strong>5.35km/h</strong>
         </p>
@@ -38,12 +38,12 @@
         <p>
           Coded by
           <a href="https://github.com/naomiseganeno29-coder" target="_blank">Naomi Seganeno</a> is
-          <a href="https://github.com/naomiseganeno29-coder/hosting-project" target="_blank"> open-sourced on GitHub</a> and
-          <a href="https://hosting-pr.netlify.app/">hosted on Netlify</a>
+          <a href="https://github.com/naomiseganeno29-coder/Maemo-a-bosa" target="_blank"> open-sourced on GitHub</a> and
+          <a href="https://maemo-a-bosa.netlify.app/">hosted on Netlify</a>
           
         </p>
     </footer>
     </div>
-    <script srcs="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
